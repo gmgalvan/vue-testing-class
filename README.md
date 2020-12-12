@@ -23,3 +23,22 @@ Not sure how to mount and render your component to perform assertions. Not sure 
 You need a basic understanding of testing in JavaScript and Jest. We recommend watching [JavaScript Testing Fundamentals](https://vueschool.io/courses/javascript-testing-fundamentals) and [Test with Jest](https://vueschool.io/courses/test-with-jest) if you're not already familiar with the topics.
 
 [Click here to watch the testing course](https://vueschool.io/courses/learn-how-to-test-vuejs-components).
+
+
+## Command list
+
+``` bash
+yarn install
+
+yarn jest
+
+yarn add vue-template-compiler vue-jest
+
+yarn jest specs/test.spec.js # run specific test
+
+yarn add @vue/test-utils # add vue test utils
+
+yarn jest specs/test.spec.js -u  # update snapshot
+
+yarn add faker # get faker library 
+```
